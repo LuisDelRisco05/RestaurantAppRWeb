@@ -70,7 +70,7 @@
 
 /* HTML: <div class="loader"></div> */
 .loader {
-    --c1:#18181b;
+    --c1:#003050;
     --c2:#14b8a6;
     width: 40px;
     height: 80px;

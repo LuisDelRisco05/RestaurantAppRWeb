@@ -55,14 +55,14 @@ export const Order = ({activeOrder, firebase}) => {
   return (
     <Card className='card bg-secondary text-white w-11/12 h-[350px]'>
         <CardHeader>
-            <h3>ID: {id}</h3>
+            <h3 className='font-semibold text-lg'>ID: {id}</h3>
         </CardHeader>
 
         <Divider />
 
         <div className='h-24 overflow-y-auto w-[96%] mx-auto'>
             {
-                order.map( (item, i) => <p key={item.id + i}>Unit/s ({item.quantity}) - {item.name}</p>)
+                order.map( (item, i) => <p className='font-bold text-base truncate' key={item.id + i}>Unit/s ({item.quantity}) - {item.name}</p>)
             }
         </div>
 
