@@ -1,6 +1,7 @@
 .bg-main {
     background-image: url(./assets/food.jpg);
     background-size: 400px;
+    background-attachment: fixed;
 }
 
 .bg-default-100 {

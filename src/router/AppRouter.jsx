@@ -5,7 +5,7 @@ import { Sidebar } from "../components/ui/Sidebar";
 
 export const AppRouter = () => {
   return (
-    <div className="container bg-transparent flex max-w-[1550px] mx-auto min-h-screen">
+    <div className="container bg-transparent flex max-w-[1550px] mx-auto min-h-screen pl-96">
       <Sidebar />
 
       <Routes>

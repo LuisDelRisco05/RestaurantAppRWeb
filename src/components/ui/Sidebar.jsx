@@ -7,7 +7,7 @@ export const Sidebar = () => {
     const location = useLocation() 
 
   return (
-    <div className="bg-primary w-1/2 sm:w-1/3 lg:w-1/4 text-white px-4">
+    <div className="bg-primary w-1/2 sm:w-1/3 lg:w-1/4 h-screen text-white px-4 fixed top-0 left-0">
         <h1 className="text-center mt-3 font-bold tracking-wide text-neutral-50">RESTAURANTAPP</h1>
         <div className="mt-3">
             <p className="text-neutral-200 italic">Manage your restaurant in the following options:</p>
